@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform, useSpring, useMotionValue } from 'framer-motion';
 import { useRef, useEffect } from 'react';
-
+import { profileImage } from '../assets';
 export default function Hero() {
     const containerRef = useRef(null);
     const { scrollY } = useScroll();
@@ -63,7 +63,7 @@ export default function Hero() {
                 >
                     <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden grayscale border-[6px] border-slate-200 dark:border-surface-elevated shadow-2xl relative z-10">
                         <img
-                            src="../src/assets/mrkpalle.jpg"
+                            src={profileImage}
                             alt="John Doe"
                             className="w-full h-full object-cover"
                         />
