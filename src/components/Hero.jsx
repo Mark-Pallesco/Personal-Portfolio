@@ -61,7 +61,7 @@ export default function Hero() {
                     transition={{ duration: 0.8 }}
                     className="mb-12 relative"
                 >
-                    <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden grayscale border-[6px] border-slate-200 dark:border-surface-elevated shadow-2xl relative z-10">
+                    <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-[6px] border-slate-200 dark:border-surface-elevated shadow-2xl relative z-10">
                         <img
                             src={profileImage}
                             alt="John Doe"
@@ -123,4 +123,5 @@ function ArrowRight({ className }) {
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
     )
 }
+
 
