@@ -63,7 +63,7 @@ export default function Hero() {
                 >
                     <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden grayscale border-[6px] border-slate-200 dark:border-surface-elevated shadow-2xl relative z-10">
                         <img
-                            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop"
+                            src="../src/assets/mrkpalle.jpg"
                             alt="John Doe"
                             className="w-full h-full object-cover"
                         />
@@ -123,3 +123,4 @@ function ArrowRight({ className }) {
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
     )
 }
+
